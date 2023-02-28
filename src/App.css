@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+}
+
+@media (min-width: 200px) and (max-width: 410px) {
+  html {
+    width: 100%;
+    font-size: 4px;
+  }
+}
+@media (min-width: 410px) and (max-width: 810px) {
+  html {
+    width: 100%;
+    font-size: 8px;
+  }
+}
+@media (max-width: 200px) {
+  html {
+    width: 100%;
+    font-size: 2px;
+  }
+}

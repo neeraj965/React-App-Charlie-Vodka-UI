@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+
+.cart {
+  height: 3rem;
+  width: 10rem;
+  position: absolute;
+  margin-top: 30.5rem;
+  margin-left: 66rem;
+  font-weight: 600;
+}
+
+.catalogue-container {
+  height: 2.5rem;
+  width: 8rem;
+  position: absolute;
+  margin-top: 30rem;
+  margin-left: 74rem;
+  background-color: transparent;
+  border-radius: 3%;
+  border: 2px solid white;
+}
+.catalogue {
+  height: 3rem;
+  width: 10rem;
+  position: absolute;
+  margin-top: 30.2rem;
+  margin-left: 75rem;
+  font-weight: 600;
+  color: white;
+  font-size: 1.2rem;
+}
+.line {
+  background-color: white;
+  height: 0.1rem;
+  width: 50rem;
+  position: absolute;
+  margin-top: 34rem;
+  margin-left: 44rem;
+}
+
+.first-para {
+  position: absolute;
+  margin-top: 35rem;
+  margin-left: 48rem;
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: 600;
+}
+.second-para {
+  position: absolute;
+  margin-top: 35rem;
+  margin-left: 66rem;
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: 600;
+}
+.third-para {
+  position: absolute;
+  margin-top: 35rem;
+  margin-left: 82rem;
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: 600;
+}
+.insta {
+  position: absolute;
+  margin-top: 49rem;
+  font-size: 2rem;
+  margin-left: 66rem;
+  color: white;
+}
+.facebook {
+  position: absolute;
+  margin-top: 49rem;
+  font-size: 2rem;
+  margin-left: 70rem;
+  color: white;
+}
+.youtube {
+  position: absolute;
+  margin-top: 49rem;
+  font-size: 2rem;
+  margin-left: 74rem;
+  color: white;
+}
+.twitter {
+  position: absolute;
+  margin-top: 49rem;
+  font-size: 2rem;
+  margin-left: 78rem;
+  color: white;
+}
+
+@media (min-width: 200px) and (max-width: 410px) {
+  html {
+    width: 100%;
+    font-size: 4px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 810px) {
+  html {
+    width: 100%;
+    font-size: 8px;
+  }
+}
+@media (max-width: 200px) {
+  html {
+    width: 100%;
+    font-size: 2px;
+  }
+}

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+nav {
+  background-color: black;
+  height: 6rem;
+  width: 100%;
+  opacity: 0.3;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0rem 20rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 2rem;
+  margin: 1rem 0rem;
+  font-weight: 700;
+}
+.charlie-logo {
+  height: 3rem;
+  position: absolute;
+  margin: -4rem 1rem;
+  border-radius: 100%;
+}
+.charlie {
+  font-size: 6rem;
+  position: absolute;
+  margin-left: 60rem;
+  margin-top: 9rem;
+  font-weight: 600;
+  opacity: 0.8;
+  font-style: oblique;
+  text-shadow: 2rem 2rem 1rem white;
+  filter: blur(1px);
+
+  color: aliceblue;
+}
+.spirit {
+  font-weight: 600;
+  font-size: 1.4rem;
+  position: absolute;
+  margin-left: 59rem;
+  margin-top: 7rem;
+
+  color: white;
+}
+.vodka {
+  color:aliceblue;
+  font-weight: 600;
+  font-size: 5rem;
+  position: absolute;
+  margin-left: 63rem;
+  margin-top: 18rem;
+  font-style: oblique;
+  filter: blur(1px);
+
+  text-shadow: 2rem 2rem 1rem white;
+}
+
+.generation {
+  font-weight: 600;
+  font-size: 1rem;
+  position: absolute;
+  margin-left: 62rem;
+  margin-top: 26rem;
+
+  color: white;
+}
+
+.image1 {
+  position: absolute;
+  height: 25rem;
+  margin-left: 4.8rem;
+
+  margin-top: 1rem;
+  opacity: 0.4;
+}
+.image2 {
+  position: absolute;
+  height: 32rem;
+  margin-left: 12rem;
+  margin-top: 1rem;
+  transform: rotate(-30deg);
+}
+.image3 {
+  position: absolute;
+  height: 32rem;
+  margin-left: -4rem;
+  margin-top: 1rem;
+}
+.profile {
+  position: absolute;
+  font-size: 1.4rem;
+  margin-left: 84rem;
+  margin-top: -3rem;
+  color: white;
+  opacity: 0.7;
+}
+.search {
+  position: absolute;
+  font-size: 1.4rem;
+  margin-left: 88rem;
+  margin-top: -3rem;
+  color: white;
+  opacity: 0.7;
+}
+@media (min-width: 200px) and (max-width: 410px) {
+  html {
+    width: 100%;
+    font-size: 4px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 810px) {
+  html {
+    width: 100%;
+    font-size: 8px;
+  }
+}
+@media (max-width: 200px) {
+  html {
+    width: 100%;
+    font-size: 2px;
+  }
+}
